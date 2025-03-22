@@ -33,7 +33,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - sub_level: "178"
+          - sub_level: "177"
             os_patch_level: "2025-03"
     uses: ./.github/workflows/gki-kernel.yml
     secrets: inherit

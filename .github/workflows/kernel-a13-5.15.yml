@@ -52,7 +52,11 @@ jobs:
           - sub_level: "167"
             os_patch_level: "2024-11"
           - sub_level: "170"
+            os_patch_level: "2025-01"           
+          - sub_level: "178"
             os_patch_level: "2025-01"
+          - sub_level: "178"
+            os_patch_level: "2025-02"
           - sub_level: "X"
             os_patch_level: "lts"
     uses: ./.github/workflows/gki-kernel.yml
